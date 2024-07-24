@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>PulsePower</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body id="myPage" data-spy="scroll" data-target="navbar" data-offset="60">
+  <div class="navbar navbar-expand-md navbar-expand-con fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#myPage">PulsePower</a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" aria-expanded="false"
+        data-bs-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link" href="#values">VALUES</a></li>
+          <li class="nav-item"><a class="nav-link" href="#service">SERVICE</a></li>
+          <li class="nav-item"><a class="nav-link" href="#guidance">GUIDANCE</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">PRICING</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="video-box">
+    <video src="assets/fitness-home.mp4" width="1425" height="440" autoplay="autoplay" loop="loop" muted>
+    </video>
+  </div>
+
+
+  <!-- Container (About Section) -->
+  <div id="about" class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>About us</h2>
+        <br />
+        <h4>
+          PulsePower was founded in 2015 with a mission to help individuals worldwide achieve their health goals through
+          personalized fitness plans and nutritional guidance. Our vision is to enable everyone to lead a healthier,
+          more active life.
+        </h4>
+
+        <div class="row justify-content-between">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="./assets/JohnDoe.jpg" alt="JohnDoe" width="200" height="200">
+            <h3>John Doe</h3>
+            <p>Founder and CEO with over 15 years of experience as a fitness coach, holding internationally recognized
+              fitness certifications.</p>
+          </div>
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="./assets/LinaLee.jpg" alt="LinaLee" width="200" height="200">
+            <h3>Lina Lee</h3>
+            <p>Chief Nutritionist, a registered dietitian specializing in sports nutrition and healthy eating plans.</p>
+          </div>
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="./assets/MikeJohnson.jpg" alt="MikeJohnson" width="200" height="200">
+            <h3>Mike Johnson</h3>
+            <p>Chief Technology Officer with extensive experience in developing internet products, ensuring platform
+              stability and user experience.</p>
+          </div>
+        </div>
+        <br /><button class="btn btn-outline-secondary tn-default btn-lg">Get in Touch</button>
+      </div>
+      <div class="col-sm-4">
+        <img src="./assets/about-side.jpg" alt="about-sideimg" width="428">
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-grey values-area" id="values">
+    <div class="row">
+      <div class="col-sm-4 fit">
+        <img src="./assets/values-side.jpg" alt="about-sideimg" width="428">
+      </div>
+      <div class="col-sm-8">
+        <h2>Our Values</h2>
+        <br />
+        <h4>
+          Customer Focus:
+        </h4>
+        <p>We prioritize each user’s needs and provide personalized services tailored to their specific goals. Our aim
+          is to help users achieve their health objectives through customized fitness plans and nutritional guidance. We
+          believe every user is unique, and we strive to make them feel cared for and valued throughout their fitness
+          journey.</p>
+        <h4>
+          Professionalism
+        </h4>
+        <p>Our team consists of experienced fitness coaches and nutritionists, ensuring the quality of our services.
+          Each coach and nutritionist undergoes rigorous training and possesses extensive knowledge in their respective
+          fields. We are committed to delivering scientifically sound and effective fitness and nutrition advice,
+          helping users reach their health goals safely and efficiently.</p>
+        <h4>
+          Innovation:
+        </h4>
+        <p>We continuously innovate and adopt the latest technologies and scientific methods to help users achieve their
+          health goals. Through ongoing research and development, we introduce advanced fitness equipment and digital
+          tools to provide the best fitness experience. Our commitment to innovation extends to optimizing our service
+          processes and creating personalized fitness programs.</p>
+        <br />
+      </div>
+    </div>
+  </div>
+
+  <!-- Container (Services Section) -->
+  <div id="service" class="container-fluid text-center">
+    <h2>SERVICES</h2>
+    <h3>What we offer</h3>
+    <div class="row g-4 pt-3 row-cols-1 row-cols-lg-3">
+      <div class="d-flex">
+        <div
+          class="icon-square bg-body-secondary d-inline-flex align-items-center justify-content-center flex-shrink-0 me-3">
+          <img src="./assets/sv-general-icon.png" alt="" width="24" height="24">
+        </div>
+        <div class="text-start">
+          <h4>Customized Fitness Plans</h4>
+          <p>We create personalized fitness plans tailored to your goals, whether it’s weight loss, muscle gain, or
+            maintaining health. Fill out a health assessment form, and our coaches will design a plan with weekly
+            workouts, exercise instructions, and nutritional guidance to ensure optimal results.</p>
+          <a href="#" class="btn btn-outline-secondary btn-default btn-lg">
+            More
+          </a>
+        </div>
+      </div>
+      <div class="d-flex">
+        <!-- <img class="icon-square" src="./assets/Customized-icon.png" alt="" width="32" height="32"> -->
+        <div
+          class="icon-square bg-body-secondary d-inline-flex align-items-center justify-content-center flex-shrink-0 me-3">
+          <img src="./assets/sv-customized-icon.png" alt="" width="24" height="24">
+        </div>
+        <div class="text-start">
+          <h4>General Fitness Plans</h4>
+          <p>Our general fitness plans cater to all levels, offering comprehensive schedules for cardio, strength, and
+            flexibility exercises. Ideal for improving overall fitness and building a consistent routine, these plans
+            provide clear instructions and tips to keep you motivated and on track.</p>
+          <a href="#" class="btn btn-outline-secondary btn-default btn-lg">
+            More
+          </a>
+        </div>
+      </div>
+      <div class="d-flex">
+        <div
+          class="icon-square bg-body-secondary d-inline-flex align-items-center justify-content-center flex-shrink-0 me-3">
+          <img src="./assets/sv-specailized-icon.png" alt="" width="24" height="24">
+        </div>
+        <div class="text-start">
+          <h4>Specialized Training</h4>
+          <p>
+            Specialized training programs target specific goals like running, strength training, or yoga. Improve
+            endurance with our running plans, enhance muscle strength with our strength training, or increase
+            flexibility and reduce stress with our yoga courses, all crafted by experts for optimal results.
+          </p>
+
+          <a href="#" class="btn btn-outline-secondary btn-default btn-lg">
+            More
+          </a>
+        </div>
+      </div>
+    </div>
+    <br />
+  </div>
+
+  <!-- Container (guidance Section) -->
+  <div id="guidance" class="container-fluid text-center bg-grey">
+    <h2>Guidance</h2>
+    <br />
+    <div class="row text-center slideanim">
+      <div class="col-sm-4">
+        <iframe width="389" height="692" src="https://www.youtube.com/embed/CKw1nmZkNEs"
+          title="WORKOUT PLAN WITH THE BEST RESULTS🔥 #bernardorebeil #workoutplan #workout #workoutroutine"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="col-sm-4">
+        <iframe width="389" height="692" src="https://www.youtube.com/embed/pCgN1XbyMw4"
+          title="MY FAVORITE WORKOUT SPLIT" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="col-sm-4">
+        <iframe width="389" height="692" src="https://www.youtube.com/embed/C7HOJ5T0zFA"
+          title="#1 Thing Stopping You From Losing Belly Fat" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div id="testimonial" class="container-fluid text-center bg-grey">
+    <h2>What our customers say</h2>
+    <div id="myCarousel" class="carousel slide mb-0" data-bs-ride="carousel">
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active"
+          aria-current="true"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="rgba(33, 37, 41, 0.5)"></rect>
+          </svg>
+          <div class="carousel-caption text-center">
+            <h1>Emily R.</h1>
+            <p class=>“I started with PulsePower's customized fitness plan six months ago, and the results have
+              been incredible. I’ve lost 15 pounds, gained muscle, and feel more energetic than ever. The coaches are
+              supportive and the workouts are fun and challenging. Highly recommend!”</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="rgba(33, 37, 41, 0.5)"></rect>
+          </svg>
+          <div class="carousel-caption text-center">
+            <h1>Sophia L.</h1>
+            <p>“I love the general fitness plans! As a beginner, I was nervous about starting my fitness journey, but
+              the easy-to-follow schedules and tips made it so simple. I’ve gained confidence and strength, and I
+              can’t wait to continue progressing with PulsePower.”</p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="rgba(33, 37, 41, 0.5)"></rect>
+          </svg>
+          <div class="carousel-caption text-center">
+            <h1>James P.</h1>
+            <p>“The strength training program has transformed my workout routine. The exercises are varied and
+              effective, and I’ve seen significant improvements in my muscle definition. The online coaching support
+              is a fantastic bonus, making sure I’m doing everything correctly.”</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Container (Pricing Section) -->
+  <div id="pricing" class="container-fluid">
+    <div class="text-center">
+      <h2>Pricing</h2>
+      <h4>Choose a payment plan that works for you</h4>
+    </div>
+    <div class="row slideanim">
+      <div class="col-sm-4 col-xs-12 mb-2">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h1>Basic</h1>
+          </div>
+          <div class="panel-body">
+            <p>Access to gym equipment</p>
+            <p>Access to general fitness plans</p>
+            <p>Basic nutritional advice</p>
+            <p>Monthly fitness tips</p>
+            <p>Participation in group fitness classes</p>
+          </div>
+          <div class="panel-footer">
+            <h3>$19</h3>
+            <h4>per month</h4>
+            <button class="btn btn-lg">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12 mb-2">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h1>Pro</h1>
+          </div>
+          <div class="panel-body">
+            <p>Access to gym equipment</p>
+            <p>Customized fitness plans</p>
+            <p>Personalized nutritional guidance</p>
+            <p>Three on-site personal training sessions per month</p>
+            <p>Participation in group fitness classes</p>
+          </div>
+          <div class="panel-footer">
+            <h3>$29.9</h3>
+            <h4>per month</h4>
+            <button class="btn btn-lg">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12 mb-2">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h1>Premium</h1>
+          </div>
+          <div class="panel-body">
+            <p>Access to gym equipmen</p>
+            <p>All Premium Membership services</p>
+            <p>Eight on-site personal training sessions per month</p>
+            <p>Exclusive video tutorials</p>
+            <p>Exclusive training resources</p>
+          </div>
+          <div class="panel-footer">
+            <h3>$59.9</h3>
+            <h4>per month</h4>
+            <button class="btn btn-lg">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container (Contact Section) -->
+  <div id="contact" class="container-fluid bg-grey">
+    <h2 class="text-center">CONTACT</h2>
+    <div class="row">
+      <div class="col-sm-5">
+        <p>Contact us and we'll get back to you within 24 hours.</p>
+        <p>
+          <span class="glyphicon glyphicon-map-marker"></span> 123 Fitness Avenue, Melbourne, VIC 3000, Australia
+        </p>
+        <p><span class="glyphicon glyphicon-phone"></span> (03) 9123 4567</p>
+        <p>
+          <span class="glyphicon glyphicon-envelope"></span>
+          customerservice@pulsepower.com
+        </p>
+      </div>
+      <div class="col-sm-7 slideanim">
+        <div class="row mb-2">
+          <div class="col-sm-6 form-group mb-1">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+          </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br />
+        <button class="btn btn-outline-secondary btn-default right" type="submit">
+          Send
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <footer class="row row-cols-1 row-cols-sm-3 row-cols-md-5 py-5 border-top">
+      <div class="col mb-5">
+        <a href="">
+          <img src="./assets/logo.png" alt="logo" width="60" height="60">
+        </a>
+        <p class="text-body-secondary">© 2024 Made By Aaron</p>
+      </div>
+
+      <div class="col text-right mb-3">
+        <h5>Company Information</h5>
+        <ul class="list-unstyled flex-column">
+          <li class="mb-2"><a href="#about" class="p-0 text-body-secondary">About Us</a></li>
+          <li class="mb-2"><a href="#contact" class="p-0 text-body-secondary">Contact Us</a></li>
+          <li class="mb-2"><a href="" class="p-0 text-body-secondary">Business Hours</a></li>
+          <li class="mb-2"><a href="" class="p-0 text-body-secondary">Privacy Policy</a></li>
+          <li class="mb-2"><a href="" class="p-0 text-body-secondary">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <div class="col text-right mb-3">
+        <h5>Services</h5>
+        <ul class="list-unstyled flex-column">
+          <li class="mb-2"><a href="" class="p-0 text-body-secondary">Personal Fitness Plans</a></li>
+          <li class="mb-2"><a href="" class="p-0 text-body-secondary">Group Training Sessions</a></li>
+          <li class="mb-2"><a href="" class="p-0 text-body-secondary">Online Consultation</a></li>
+          <li class="mb-2"><a href="" class="p-0 text-body-secondary">Nutrition Plans</a></li>
+          <li class="mb-2"><a href="#pricing" class="p-0 text-body-secondary">Pricing</a></li>
+        </ul>
+      </div>
+
+      <div class="col text-right mb-3">
+        <h5>Help & Support</h5>
+        <ul class="list-unstyled flex-column">
+          <li class="mb-2"><a href="" class="p-0 text-body-secondary">FAQ</a></li>
+          <li class="mb-2"><a href="" class="p-0 text-body-secondary">User Guide</a></li>
+          <li class="mb-2"><a href="" class="p-0 text-body-secondary">Customer Support</a></li>
+          <li class="mb-2"><a href="" class="p-0 text-body-secondary">Refund Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="col text-right mb-3">
+        <h5>Subscribe & Notifications</h5>
+        <ul class="list-unstyled flex-column">
+          <li class="mb-2"><a href="" class="p-0 text-body-secondary">Subscribe to Newsletter</a></li>
+          <li class="mb-2"><a href="" class="p-0 text-body-secondary">Get Updates</a></li>
+          <li class="mb-2"><a href="" class="p-0 text-body-secondary">Promotions & Offers</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,287 @@
+/* BC: #3e3e3e */
+
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #818181;
+}
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.container-fluid {
+  padding: 45px 50px;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+/****** Navbar Start ******/
+.navbar .container-fluid {
+  padding: 0 50px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #3e3e3e;
+  /* opacity: 0.8; */
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar-toggler {
+  border: 0px;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0;
+}
+
+.navbar-toggler .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggler .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+.navbar li{
+  line-height: 30px;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+  color: #fff !important;
+  /* color: #333333; */
+}
+
+.nav-fill > .nav-link,
+.nav-fill .nav-item {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.nav-justified > .nav-link,
+.nav-justified .nav-item {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link {
+  width: 100%;
+}
+
+.navbar .navbar-toggler .icon-bar {
+  /* background-color: #fff; */
+  background-color: #fff;
+
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: #3e3e3e !important;
+  background-color: #fff !important;
+  /* background-color: #4CAF50; */
+}
+
+button .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.logo-small {
+  color: #3e3e3e;
+  font-size: 50px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 200px;
+}
+/******Navbar End ******/
+
+/******Values-area Start ******/
+.values-area h4{
+  margin-bottom: 8px;
+}
+
+/******Values-area End ******/
+
+/******Service-area End ******/
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+/******Service-area End ******/
+
+.panel {
+  border: 1px solid #3e3e3e;
+  border-radius: 0px !important;
+  transition: box-shadow 0.5s;
+
+}
+
+.panel-body {
+  margin-top: 1rem;
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
+}
+.panel-footer .btn:hover {
+  border: 1px solid #3e3e3e;
+  background-color: #fff !important;
+  color: #3e3e3e;
+}
+.panel-heading {
+  color: #fff !important;
+  background-color: #3e3e3e !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  /* border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px; */
+}
+.panel-footer {
+  background-color: white !important;
+}
+.panel-footer h3 {
+  font-size: 32px;
+}
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 14px;
+}
+.panel-footer .btn {
+  margin: 15px 0;
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-default {
+  border: 1px solid lightgray;
+  line-height: 1;
+}
+
+.right {
+  float: right;
+}
+
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #3e3e3e;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.video-box video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+
+  .container-sm, .container {
+    max-width: 720px;
+  }
+
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .fit {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    padding: 30px 10px;
+  }
+
+  .navbar .container-fluid {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo {
+    font-size: 150px;
+  }
+
+  .text-right {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
